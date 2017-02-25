@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] tab = new int[] {553, 55, 33, 1};
+        int[] tab = new int[]{553, 55, 33, 1};
         SortFacade sort = new SortFacade();
         int[] result = sort.sortThroughFacade(tab);
         System.out.println(Arrays.toString(result));
