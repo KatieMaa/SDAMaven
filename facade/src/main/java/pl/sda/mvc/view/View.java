@@ -16,7 +16,7 @@ public class View {
             Integer choice = scanner.nextInt();
             Controller controller = new Controller();
             if (choice != null && choice > 0) {
-                int result = controller.getFibValue(choice);
+                long result = controller.getFibValue(choice);
                 System.out.println("FIB = " + result);
             } else {
                 System.out.println("AVG = " + controller.average());
